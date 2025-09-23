@@ -1,7 +1,10 @@
 # dashboard.py
+import streamlit as st
+st.title("Smart Sales Dashboard")
 import pandas as pd
 from dash import Dash, dcc, html
 import plotly.express as px
+
 import services
 from db import create_tables
 
